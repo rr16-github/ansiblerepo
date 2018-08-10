@@ -1,0 +1,8 @@
+--- # its a sample file
+ - hosts: all
+   sudo: yes
+   connection: ssh
+   - name:
+     service:
+      name: httpd
+      state: restarted
