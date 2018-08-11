@@ -3,6 +3,6 @@
    sudo: yes
    connection: ssh
    - name:
-     service:
-      name: httpd
-      state: restarted
+      service:
+       name: httpd
+       state: restarted
